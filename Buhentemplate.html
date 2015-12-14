@@ -155,20 +155,19 @@
             <form id="phototagging" role="form">
 
                 <div class="form-group">
-                    <label class="control-label" for="provenance">Provenance: </label>
-                    <input type="text" name="provenance" id="provenance" class="form-control fields" placeholder="Look for format T.xx.xx">
+                    <label class="control-label" for="excavated site and year">Excavated Site and Year: </label>
+                    <input type="text" name="excavated site and year" id="excavated site and year" class="form-control fields" placeholder="Look for format Buhen Town 19..">
                 </div>
-
+                
                 <div class="form-group">
-                    <label class="control-label" for="title">Title of image: </label>
-                    <input type="text" name="title" id="title" class="form-control fields"
-                           placeholder="The title is just above the drawing" rel="tooltip" data-toggle="tooltip" data-placement="bottom" title="The title is just above the drawing">
+                    <label class="control-label" for="location">Location: </label>
+                    <input type="text" name="location" id="location" class="form-control fields" placeholder="Look for format 'Temple' in top right corner">
                 </div>
-
+               
                 <div class="form-group">
                     <label class="control-label" for="objectNumber">Object number: </label>
                     <input type="text" name="objectNumber" id="objectNumber" class="form-control fields" placeholder="The object number is generally in the top right corner " >
-                    <span id="helpBlock" class="help-block">The final number will be generated to match the EES convention of TA.OC.30-31.XXX. So just enter the digits you see on the image.</span>
+                    <span id="helpBlock" class="help-block">The final number will be generated to match the EES convention of L/H/K...-XXX. So just enter the digits you see on the top right corner of image.</span>
                 </div>
 
                 <div class="form-group">
@@ -176,11 +175,29 @@
                     <input type="text" name="negativeNumber" id="negativeNumber" class="form-control fields" placeholder="Negative number is in format 'Neg. = 0.13'" >
                 </div>
 
-                <div class="form-group">
-                    <label class="control-label" for="distribution">Distribution: </label>
-                    <input type="text" name="distribution" id="distribution" class="form-control fields" placeholder="The distribution is generally at the bottom left eg San Diego">
+                
+                 <div class="form-group">
+                    <label class="control-label" for="description">Description: </label>
+                    <input type="text" name="description" id="description" class="form-control fields"
+                           placeholder="The description is just above the drawing" rel="tooltip" data-toggle="tooltip" data-placement="bottom" title="The description is just above the drawing">
+                </div>
+                
+                 <div class="form-group">
+                    <label class="control-label" for="sketch">Sketch: </label>
+                    <input type="text" name="sketch" id="sketch" class="form-control fields" placeholder="Please describe the sketch of the object (if there is one), generally at the centre">
                 </div>
 
+                
+                <div class="form-group">
+                    <label class="control-label" for="provenance">Provenance: </label>
+                    <input type="text" name="provenance" id="provenance" class="form-control fields" placeholder="The provenance is just below the drawing">
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label" for="archive record number">Archive Record Number: </label>
+                    <input type="text" name="archive record number" id="archive record number" class="form-control fields" placeholder="Look for number at bottom of page, format 1... in red pencil">
+                </div>
+ 
                 <div class="form-group">
                     <label class="control-label" for="otherNotes">Notes: </label>
                     <input type="text" name="otherNotes" id="otherNotes" class="form-control fields" placeholder="Enter any other notes on the card">
@@ -217,14 +234,14 @@
         <div class="modal-content">
 
             <div class="modal-header">
-                <h3 class="lead">Egypt Exploration Society Amarna Season 1930 - 1931</h3>
+                <h3 class="lead">Egypt Exploration Society Buhen 1963-1964</h3>
             </div>
 
             <div id="0" class="modal-body" style="display:none">
                 <img src="http://www.ees.ac.uk/images/logo.gif" class="pull-right img-circle" />
                 <p>
                     This application is a very simple application for the crowd-sourcing of data from archival cards that
-                    have been generated from the Egypt Exploration Society's Amarna digging season 1930 - 1931. Each card contains
+                    have been generated from the Egypt Exploration Society's Buhen digging season 1963 - 1964. Each card contains
                     very structured data relating to each object recorded, and these data are what we would like you to
                     transcribe.
                 </p>
